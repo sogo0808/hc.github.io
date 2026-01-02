@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Untitled.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>弘鑫傳動五金有限公司</title>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #CCCCCC;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ 元素/標籤選取器 ~~ */
+ul, ol, dl { /* 由於瀏覽器之間的差異，最佳作法是在清單中使用零寬度的欄位間隔及邊界。為了保持一致，您可以在這裡指定所要的量，或在清單包含的清單項目 (LI、DT、DD) 上指定所要的量。請記住，除非您寫入較為特定的選取器，否則在此執行的作業將重疊顯示到 .nav 清單。 */
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+h1, h2, h3, h4, h5, h6, p {
+	font-size: medium;
+	margin: 0;
+	padding: 0px;
+	color: #000;
+}
+a img { /* 這個選取器會移除某些瀏覽器在影像由連結所圍繞時，影像周圍所顯示的預設藍色邊框 */
+	border: none;
+}
+
+/* ~~ 網站連結的樣式設定必須保持此順序，包括建立滑過 (Hover) 效果的選取器群組在內。~~ */
+a:link {
+	color:#414958;
+	text-decoration: underline; /* 除非您要設定非常獨特的連結樣式，否則最好提供底線，以便快速看出 */
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* 這個選取器群組可以讓使用鍵盤導覽的使用者，也和使用滑鼠的使用者一樣擁有相同的滑過體驗。 */
+	text-decoration: none;
+	text-align: center;
+}
+
+/* ~~ 這個容器環繞著所有其他的 Div，並依百分比設定其寬度 ~~ */
+.container {
+	width: auto;
+	max-width: 1260px;/* 建議您使用最大寬度，如此版面在大型螢幕上就不致於過寬，讓行保持比較方便閱讀的長度。IE6 並不適用這項宣告。 */
+	min-width: 780px;/* 建議您使用最小寬度，如此版面在大型螢幕上就不致於過窄，讓行在側欄中保持比較方便閱讀的長度。IE6 並不適用這項宣告。 */
+	background-color: #FFF; /* 兩側的自動值與寬度結合後，版面便會置中對齊。如果將 .container 的寬度設為 100%，就不需要這麼做。 */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+/* ~~ 頁首沒有指定的寬度，而會橫跨版面的整個寬度。頁首包含影像預留位置，必須由您自己的連結商標加以取代 ~~ */
+.header {
+	background-color: #6F7D94;
+}
+
+/* ~~ 這是版面的欄位。~~ 
+
+1) 欄位間隔只會置於 Div 的頂端或底部。這些 Div 內的元素在兩側會有欄位間隔，可讓您不需進行「方塊模型計算」。請記住，如果對 Div 本身加入任何側邊的欄位間隔或邊框，在計算「總」寬度時，就會將這些加入您定義的寬度。您也可以選擇移除 Div 中元素的欄位間隔，然後在其中放置沒有寬度的第二個 Div，並依設計所需放置欄位間隔。
+
+2) 尚未為這些欄位提供邊界，因為它們全都是浮動的。如果必須加入邊界，請避免將其放在浮動方向的一側 (例如將右邊界放在設定為向右浮動的 Div 上)。在許多時候，您都可以改用欄位間隔。對於必須違反此規則的 Div，您應該在 Div 的規則中加入 "display:inline" 宣告，以防止某些版本的 Internet Explorer 將邊界加倍。
+
+3) 因為可在文件中多次使用類別 (也可對單一的元素套用多個類別)，所以已為欄位指定類別名稱，而非 ID。例如，您可在必要時將兩個側邊列 Div 堆疊起來。如有需要，也可以將這些名稱輕鬆地變更為 ID (只要您在每份文件中只使用一次)。
+
+4) 如果想要將導覽放在左方而非右方，只要將這些欄設定為往反方向浮動 (全部往左，而非全部往右)，它們就會以相反順序呈現。您不需要在 HTML 原始碼中移動 Div。
+
+*/
+.sidebar1 {
+	float: right;
+	width: 15%;
+	background-color: #93A5C4;
+	padding-bottom: 7px;
+	border-top-style: none;
+	border-right-style: dotted;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-decoration: blink;
+}
+.content {
+	width: auto;
+	float: none;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+/* ~~ 這個群組選取器會在 .content 區域空間中提供清單 ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* 這個欄位間隔反映出上方標題和段落規則中的右方間隔。當欄位間隔位於下方時，便可將清單中的其他元素間隔開來；當位於左方時，則可藉此建立縮排。這些動作均可依需要進行調整。 */
+}
+
+/* ~~ 導覽清單樣式 (如果選擇使用 Spry 之類的預製飛出選單，則可移除) ~~ */
+ul.nav {
+	list-style: none; /* 這會移除清單標記 */
+	border-top: 1px solid #666; /* 這會建立連結的上方邊框，其他則都會使用下方邊框放置在 LI 上 */
+	margin-bottom: 15px; /* 這會在下方的內容上建立導覽間的間距 */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* 這會建立按鈕分隔 */
+}
+ul.nav a, ul.nav a:visited { /* 將這些選取器放入群組，即可確保您的連結即使在受到點擊後仍保有按鈕外觀 */
+	padding: 5px 5px 5px 15px;
+	display: block; /* 這會為連結提供區塊屬性，使連結能填滿包含它的整個 LI，讓整個區域都能回應滑鼠點按動作。 */
+	text-decoration: none;
+	background-color: #8090AB;
+	color: #000;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* 這會同時變更滑鼠及鍵盤導覽器的背景及文字顏色 */
+	background-color: #6F7D94;
+	color: #FFF;
+}
+
+/* ~~ 頁尾 ~~ */
+.footer {
+	background-color: #6F7D94;
+	position: relative;/* 這會為 IE6 提供 hasLayout 以進行適當的清除動作 */
+	clear: both; /* 這個 clear 屬性可以強制 .container 辨識欄結束於何處以及包含欄的位置 */
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+}
+
+/* ~~ 其他 float/clear 類別 ~~ */
+.fltrt {  /* 這個類別可用來讓元素在頁面中浮動，浮動的元素必須位於頁面上相鄰的元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* 這個類別可用來讓元素在頁面左方浮動，浮動的元素必須位於頁面上相鄰的元素之前。 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* 這個類別可放置在 <br /> 或空白的 Div 上，當做接在 #container 內最後一個浮動 Div 後方的最後一個元素 (如果從 #container 移除或取出 #footer) */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+body,td,th {
+	color: #000;
+	height: auto;
+	width: auto;
+	margin: auto;
+}
+.container .content h1 {
+	color: #000;
+}
+-->
+</style>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 7]>
+<style>
+.content { margin-right: -1px; } /* 這個 1 像素的負邊界可放在此版面中的任何欄上，而具有相同的修正效果。 */
+ul.nav a { zoom: 1; }  /* zoom 屬性可為 IE 提供修正連結之間多餘空白時所需的 hasLayout 觸發。 */
+</style>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+</head>
+
+<body>
+<marquee direction="left"=alternate><font color="#600"
+face="標楷體"
+ bgcolor="#000000"size="6" scrollDelay =<i>歡迎客製化~皮帶輪~齒輪~聯軸器~各式五金零件</font><i></marquee> 
+
+<div class="container">
+  <table width="100%" border="0">
+    <tr>
+      <th height="110" bgcolor="#6F7D94" scope="col"><div align="left">
+        <table width="100%">
+          <tr>
+            <td><img src="hc-2.jpg" width="1010" height="80" /></td>
+          </tr>
+        </table>
+      </div></th>
+    </tr>
+  </table>
+  <div class="sidebar1">
+    <ul class="nav">
+    <li><a href="a-1.html"><strong> 產品型錄</strong></a></li>
+      <li><a href="a-1.html">三角皮帶輪</a></li>
+      <li><a href="b.html">聯&nbsp;&nbsp; 軸&nbsp; 器</a></li>
+      <li><a href="c.html">小型聯軸器</a></li>
+      <li><a href="d.html">時規皮帶輪</a></li>
+       <li><a href="e.html">正&nbsp; 齒&nbsp; 輪</a></li>
+      <li><a href="f.html">蝸 輪 / 蝸桿</a></li>
+      <li><a href="g.html">螺旋傘齒輪</a></li>
+      <li><a href="h.html">免 鍵 軸 套</a></li>
+       <li><a href="i.html">傘&nbsp;&nbsp; 齒&nbsp;&nbsp; 輪</a></li>
+      <li><a href="j.html">排 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 齒</a></li>
+      <li><a href="k.html">手 輪 / 手 把</a></li>
+      <li><a href="l.html">鏈&nbsp;&nbsp; 齒&nbsp;&nbsp; 輪</a></li>
+    </ul>
+</div>
+  <div class="content">
+    <div>
+      <div align="left"></div>
+
+      <ul id="MenuBar1" class="MenuBarHorizontal">
+        <li><a href="index.html"> │回首頁│</a>        </li>
+        <li><a href="about.html"> │關於弘鑫│</a></li>
+        <li><a class="MenuBarItemSubmenu" href="knowledge.html"> │知識庫│</a>
+          <ul>
+            <li><a href="knowledge-1.html">三角皮帶選型</a>            </li>
+            <li><a href="knowledge-2.html">軸徑公差表</a></li>
+            <li><a href="knowledge-3.html">皮帶長度計算</a></li>
+            <li><a href="knowledge-4.htm">軸承規格表</a></li>
+            <li><a href="knowledge-5.html">錐套裝拆方法</a></li>
+             <li><a href="knowledge-6.html">皮帶輪選用建議</a></li>
+          </ul>
+        <li><a href="https://lin.ee/rB0A3VJ"> │加入好友│</a></li>
+          
+      </ul>
+      
+    </div>
+    <h1 align="center">&nbsp;</h1>
+    <!-- InstanceBeginEditable name="Edit1" -->
+    <div align="center"><img src="images/d/T5_2.jpg" width="600" height="498" /></div>
+    <img src="images/d/T5_1.jpg" width="580" height="280" /><!-- InstanceEndEditable -->
+    <p>&nbsp;</p>
+  </div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <div class="footer"> &nbsp; 弘鑫傳動五金有限公司 電話:04-24071615&nbsp;傳真:04-24076171    台中市大里區大衛路48-9號
+  <p>   &nbsp; e-mail:<a href="mailto:hc24071615@gmail.com">hc24071615@gmail.com</a></p>
+  </div>
+  <p>&nbsp;</p>
+  <!-- end .container --></div>
+  </center> 
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+  </script>
+</body>
+<!-- InstanceEnd --></html>
